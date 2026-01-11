@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="container nav-container">
                 <NavLink to="/" className="brand-logo">
                     <img src={logo} alt="Maple Leaf Outsource" className="logo-image" />
-                    <span className="logo-text">MapleLeaf<span className="gradient-text">Outsource</span></span>
+                    <span className="logo-text">Maple<span className="gradient-text">Leaf</span></span>
                 </NavLink>
 
                 {/* Mobile Menu Toggle */}
