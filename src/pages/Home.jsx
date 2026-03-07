@@ -1,5 +1,5 @@
-
 import { Code, MoreHorizontal } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -14,17 +14,20 @@ const Home = () => {
                     Reliability, Quality, and Growth.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem' }}>
-                    <a href="/contact" className="btn-primary">Get Started</a>
-                    <button className="glass-panel" style={{
+                    <Link to="/contact" className="btn-primary">Get Started</Link>
+                    <Link to="/about" className="glass-panel" style={{
                         padding: '0.75rem 1.5rem',
                         borderRadius: '9999px',
                         color: 'white',
                         border: '1px solid var(--glass-border)',
                         cursor: 'pointer',
-                        fontSize: '1rem'
+                        fontSize: '1rem',
+                        textDecoration: 'none',
+                        lineHeight: '1.5',
+                        display: 'inline-block'
                     }}>
                         Learn More
-                    </button>
+                    </Link>
                 </div>
             </section>
 
