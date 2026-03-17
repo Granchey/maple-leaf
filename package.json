@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://maple-leaf-outsourcing.com/",
+  "homepage": "https://maple-leaf-outsorcing.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
